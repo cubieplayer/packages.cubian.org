@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Cubian
+Label: Cubian Packages
+Codename: wheezy
+Version: 7.0
+Date: Thu, 08 Aug 2013 22:29:05 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for cubian
+MD5Sum:
+ f646b0513de97da51716e230877858c0 466 main/binary-armhf/Packages
+ d69ae3c500b3b2de23e39dbdbab1b446 340 main/binary-armhf/Packages.gz
+ 4faa0ac2d85cc893eb93e0852bfb1ef2 126 main/binary-armhf/Release
+SHA1:
+ 6eb2d5a9dc5672b8e546e039ab2d5f77034ecb13 466 main/binary-armhf/Packages
+ b7672cc4b3ac15d0f8cc7639efda745fd6375d47 340 main/binary-armhf/Packages.gz
+ 4f5ddd944fa6fb192838bfc75054c71507ba7da5 126 main/binary-armhf/Release
+SHA256:
+ d403b4e209509cfa3baa27ec42176cf943050e8ff9ec5c3b70acfe88a881a6e1 466 main/binary-armhf/Packages
+ 7ff9925e920fe6352df3088aade8ad39b004a5db662d7ad5e0f14b0476d914a0 340 main/binary-armhf/Packages.gz
+ d8b6a8b10b05d91de45e1799db6f599d1aa7a3921e6b2e21648c099d75fe5ba2 126 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iJwEAQECAAYFAlIEG7EACgkQCYg7NB8Mn/29RgP/RCsPXOv/PEOK9sosHjyTB+yU
+UVLyqVrGiFKlKfo/GjPnKEsqt6GwKXyTuWio3Z7WPOSWZDIYNzWKd4DldKTR3cv6
+TlmJ2LFEoCCsxsKh/tnKCSnNoCPX6ltpmy2X5HOSPRpPLqg7EdMeowhnE9Hxv5IK
+Pday993S6U3MpnbQDGg=
+=cPtA
+-----END PGP SIGNATURE-----
