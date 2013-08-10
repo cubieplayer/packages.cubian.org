@@ -1,3 +1,18 @@
+Package: cubian-resizefs
+Version: 1.0-1
+Architecture: all
+Depends: e2fsprogs (>= 1.1), util-linux (>= 2.20), coreutils (>= 8.13)
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: admin
+Filename: pool/main/c/cubian-resizefs/cubian-resizefs_1.0-1_all.deb
+Size: 3506
+SHA256: 3de03493c0e2b2e6641e38798c84683b1d8800a79f5c28632a0379532c774ab7
+SHA1: ba5b0ef0c460838caed5a1a1515dce058dbb01db
+MD5sum: c71fb525857a219618a5b3262165c3ab
+Description: resize cubian rootfs
+ A helper script which can resize cubian rootfs to occupy the full SD-card
+
 Package: cubian-update
 Version: 1.0-2
 Architecture: all
