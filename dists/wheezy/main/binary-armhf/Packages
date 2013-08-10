@@ -1,15 +1,15 @@
 Package: cubian-update
-Version: 1.0-1
+Version: 1.0-2
 Architecture: all
 Depends: git (>= 1.7)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-update/cubian-update_1.0-1_all.deb
-Size: 4432
-SHA256: c8ce0746513b5bf140604dd963c6482c7e6f67396dbd015c38166d2919df2143
-SHA1: c4719edd791ef024bf2af616c57db13a6fbe6fc1
-MD5sum: 6436de38de6fc15c3f2c94da90037e6a
+Filename: pool/main/c/cubian-update/cubian-update_1.0-2_all.deb
+Size: 4512
+SHA256: fcc136a39c48aaafdf18fad01f948be3129b03101ff6782664eb4b62864930d4
+SHA1: d2ffbb121a9d2504419d41be40b1d2b6718ccc9a
+MD5sum: ca3b70e0e3da309750b05c72d3f3841b
 Description: update cubian
  This script can update cubian online
 
