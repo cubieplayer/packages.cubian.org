@@ -36,10 +36,10 @@ Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
 Filename: pool/main/c/cubian-update/cubian-update_1.0-3_all.deb
-Size: 5930
-SHA256: 3690d66c4968ce62b325ada9878a04a6ad6225717bdb37ccf92e01bd872f37f8
-SHA1: ef5c6b43ab79d77da2c3bb0da22efd6864b5c00c
-MD5sum: 5a8791d8fef24eb604874e90770e30bc
+Size: 5946
+SHA256: ffb03fdd72ebdb10439d2114ef873e5b415c57e5f8a978c6b0acba9869687fbb
+SHA1: b22c30a3beb8b2824157983f23a7a3866d7f607e
+MD5sum: 6516700016eda0130ad17d9dab38f908
 Description: update cubian
  This script can update cubian online
 
