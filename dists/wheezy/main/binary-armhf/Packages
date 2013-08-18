@@ -1,15 +1,15 @@
 Package: cubian-nandinstall
-Version: 1.0-1
+Version: 1.0-2
 Architecture: all
 Depends: coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-1_all.deb
-Size: 556706
-SHA256: 8fd4ac01aa862d52fc2c8aac433eacc70c5c8ccb5705b0934023b9a9f90a2e57
-SHA1: ffe3fefd20b32ac5daed12034cfebb0fd057adbc
-MD5sum: 6fd0f33e4239b63fbfb43d1ccf4c5eae
+Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-2_all.deb
+Size: 556820
+SHA256: a319eaa8f88f128229fd427d32e3cb78d2eb55f673750fde27248e21aa1d0c92
+SHA1: 5670fe0e9c535c6dd36873c7ccb9f6e99cacf532
+MD5sum: f180f1679e593ee3c0d7b3a019fc54c8
 Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
