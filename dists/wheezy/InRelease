@@ -5,28 +5,28 @@ Origin: Cubian
 Label: Cubian Packages
 Codename: wheezy
 Version: 7.0
-Date: Sat, 17 Aug 2013 21:06:23 UTC
+Date: Sun, 18 Aug 2013 13:42:35 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for cubian
 MD5Sum:
- c5d4253c47cb1a19d209240e0a09b78e 1615 main/binary-armhf/Packages
- 01394fe8ee5b1f85646c0ef65a3ef109 720 main/binary-armhf/Packages.gz
+ c718b01e60a8d0c5e79f7389eaf0cd78 1615 main/binary-armhf/Packages
+ cfa527f82f3eab6fe1c1db9d76e21e89 723 main/binary-armhf/Packages.gz
  4faa0ac2d85cc893eb93e0852bfb1ef2 126 main/binary-armhf/Release
 SHA1:
- 36fc942459e97feebdbfa9c32345a91aee3fe40c 1615 main/binary-armhf/Packages
- 40023defc335c63a692d3f7bc7df3f84e4a7c47e 720 main/binary-armhf/Packages.gz
+ cff84f51acb77e39243caae51f06eaa0b7316049 1615 main/binary-armhf/Packages
+ baf6e91b7fdf0aee2821486aeadcadf19db86191 723 main/binary-armhf/Packages.gz
  4f5ddd944fa6fb192838bfc75054c71507ba7da5 126 main/binary-armhf/Release
 SHA256:
- 62a1285b695ed517f4798052f0a69febd80e5b630f183b44801947b965a660db 1615 main/binary-armhf/Packages
- f3595ebfe6aea6148a32dfc77882f2f1953a38853436ef03be9319d3f56a2a41 720 main/binary-armhf/Packages.gz
+ 97b4ef6781174683c010e3cfe4e47285255a7db5a78b358fc79d7c05fc0fe7e2 1615 main/binary-armhf/Packages
+ 84c7b2540bb6b175476e31c5d96ab1c13311037c44314ff30a476582bf433257 723 main/binary-armhf/Packages.gz
  d8b6a8b10b05d91de45e1799db6f599d1aa7a3921e6b2e21648c099d75fe5ba2 126 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iJwEAQECAAYFAlIP5c8ACgkQCYg7NB8Mn/2uIwP9GsNTO1hZy1tvVgYJGo8BGXww
-6/lTE8J1cC/4EoL7EPBmig1dZDD/aVjLd72umU7skcV7vie6oQVH155QmwQ4DDy5
-08FcqJcu1hH2LZnlLIx/Imw1O3oL/8ltN0xY5nysWaOZ2qKQ85EMprFkCe2qAiZC
-xRWV5Dlp7lJtKgXkj8I=
-=61IR
+iJwEAQECAAYFAlIQz0sACgkQCYg7NB8Mn/2HWAP+O9qmZLn0hzbL+Br1KlhfK3YV
+tNkJucASD03U0c2RCn4G518uD41UF4Bhlj+8IGmwiuxUujD343aSrJhC41aCahQ8
+qKj2B34Dq4klWBV/57v4e33hgyKeWDiER956h+fkTTgvoLPbfiFnH4zqJhwy/FFs
+5sAINoUikenKV+/EVHE=
+=PuD9
 -----END PGP SIGNATURE-----
