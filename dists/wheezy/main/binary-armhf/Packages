@@ -1,45 +1,45 @@
 Package: cubian-nandinstall
-Version: 1.0-2
+Version: 1.0-3
 Architecture: all
 Depends: coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-2_all.deb
-Size: 556820
-SHA256: a319eaa8f88f128229fd427d32e3cb78d2eb55f673750fde27248e21aa1d0c92
-SHA1: 5670fe0e9c535c6dd36873c7ccb9f6e99cacf532
-MD5sum: f180f1679e593ee3c0d7b3a019fc54c8
+Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-3_all.deb
+Size: 556958
+SHA256: dc4dd143ee444a037ad28146588364dfd578d67b673f51a107c5d89a04a4debc
+SHA1: 3d655da916c3248befd4566013e8d51057cbfc21
+MD5sum: d8f8ee38ddabce690369a3577fcd9145
 Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
 Package: cubian-resizefs
-Version: 1.0-2
+Version: 1.0-3
 Architecture: all
 Depends: e2fsprogs (>= 1.1), util-linux (>= 2.20), coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-resizefs/cubian-resizefs_1.0-2_all.deb
-Size: 4056
-SHA256: 55ba5a1a6979fdfe39d0555f4c74fa3d520af24e98d563e537d86b9b6aae9169
-SHA1: be66d0f73067f9d1af776d8e93b585e0bc83d4d8
-MD5sum: 72b043866fb619544193a2c5d41ae6c2
+Filename: pool/main/c/cubian-resizefs/cubian-resizefs_1.0-3_all.deb
+Size: 4104
+SHA256: b0e856238594edd1a73019adcf8e2fe140c5f2ae8307fcec64d43e6ceeff9349
+SHA1: 709b0e6e408c521d5b07d6529bc38afec767d43a
+MD5sum: 8753fee81839435e18bc7cbe1e1ae737
 Description: resize cubian rootfs
  A helper script which can resize cubian rootfs to occupy the full SD-card
 
 Package: cubian-update
-Version: 1.0-9
+Version: 1.1-1
 Architecture: all
 Depends: git (>= 1.7), coreutils(>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-update/cubian-update_1.0-9_all.deb
-Size: 6954
-SHA256: f4fa635caa2ff01a78ffb3b38085c304a629ede2e0f242a606bac5d926fd9597
-SHA1: c6f86c5869bbcb0b19cb80b3bc4a6f759de916e9
-MD5sum: ae692ee1c099bfc087277bf0d45d610e
+Filename: pool/main/c/cubian-update/cubian-update_1.1-1_all.deb
+Size: 7192
+SHA256: 909a2110a6d68e73bd37179b7abe95c768c275bb6bc827b9b255e950358127c7
+SHA1: a5b0ed6b3c1be1115a4d55d5a0bfcd881825e4d6
+MD5sum: 4dd38e0ea35bfaeb9e69d4e71d39f9e2
 Description: update cubian
  This script can update cubian online
 
