@@ -14,17 +14,17 @@ Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
 Package: cubian-resizefs
-Version: 1.0-3
+Version: 1.0-4
 Architecture: all
 Depends: e2fsprogs (>= 1.1), util-linux (>= 2.20), coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-resizefs/cubian-resizefs_1.0-3_all.deb
-Size: 4104
-SHA256: b0e856238594edd1a73019adcf8e2fe140c5f2ae8307fcec64d43e6ceeff9349
-SHA1: 709b0e6e408c521d5b07d6529bc38afec767d43a
-MD5sum: 8753fee81839435e18bc7cbe1e1ae737
+Filename: pool/main/c/cubian-resizefs/cubian-resizefs_1.0-4_all.deb
+Size: 4122
+SHA256: 84a73611314cffec0588f3581e83a07bc764cfc23672136c3205e0f64298f0fd
+SHA1: 26b8b23f24f6a000d09935e140312e845eedf61a
+MD5sum: c70bc2400c3734c487a5c2e65e3a0536
 Description: resize cubian rootfs
  A helper script which can resize cubian rootfs to occupy the full SD-card
 
