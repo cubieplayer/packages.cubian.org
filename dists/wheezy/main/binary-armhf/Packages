@@ -43,3 +43,126 @@ MD5sum: 4dd38e0ea35bfaeb9e69d4e71d39f9e2
 Description: update cubian
  This script can update cubian online
 
+Package: libdri2-1
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6 (>= 2.13-28)
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: libs
+Filename: pool/main/libd/libdri2-1/libdri2-1_1.0-1_armhf.deb
+Size: 33494
+SHA256: fecad415f8e9b030e1eb525244fc1300495546a64be6583151654220d1ca7896
+SHA1: d3058796ed3b8ace8465c79752aedf3f36b77b64
+MD5sum: 3db41ffb8469efb9658efa619ede1c50
+Description: library for the DRI2 extension to the X Window System
+ libdri2 - library for the DRI2 extension to the X Window System
+ All questions regarding this software should be directed at the
+ Xorg mailing list:
+    http://lists.freedesktop.org/mailman/listinfo/xorg
+ Please submit bug reports to the Xorg bugzilla:
+    https://bugs.freedesktop.org/enter_bug.cgi?product=xorg
+ The master development code repository can be found at:
+    git://anongit.freedesktop.org/git/xorg/lib/libdri2
+    http://cgit.freedesktop.org/xorg/lib/libdri2
+ For patch submission instructions, see:
+    http://www.x.org/wiki/Development/Documentation/SubmittingPatches
+ For more information on the git code manager, see:
+    http://wiki.x.org/wiki/GitPage
+
+Package: libdri2-dev
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6-dev
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: libdevel
+Filename: pool/main/libd/libdri2-dev/libdri2-dev_1.0-1_armhf.deb
+Size: 4264
+SHA256: a587540f7ed6a04ab20f54f915d0aaf52f1ccbf1345726abeb7d88e1772b698e
+SHA1: 289599822d199404dbda1b3697d06840a6c8454e
+MD5sum: 9fd517f9d2e252d73357c58c216d25c2
+Description: library for the DRI2 extension to the X Window System
+ libdri2 - library for the DRI2 extension to the X Window System
+ All questions regarding this software should be directed at the
+ Xorg mailing list:
+    http://lists.freedesktop.org/mailman/listinfo/xorg
+ Please submit bug reports to the Xorg bugzilla:
+    https://bugs.freedesktop.org/enter_bug.cgi?product=xorg
+ The master development code repository can be found at:
+    git://anongit.freedesktop.org/git/xorg/lib/libdri2
+    http://cgit.freedesktop.org/xorg/lib/libdri2
+ For patch submission instructions, see:
+    http://www.x.org/wiki/Development/Documentation/SubmittingPatches
+ For more information on the git code manager, see:
+    http://wiki.x.org/wiki/GitPage
+ This package contains the development files.
+
+Package: libsunxi-mali-x11
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6 (>= 2.13-28)
+Homepage: https://github.com/linux-sunxi/sunxi-mali
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-1_armhf.deb
+Size: 431820
+SHA256: 715d209eac0930bf3357438807b77f86e78e32a99137b223a0a35daa068dbe95
+SHA1: f23fd21cee8bcc7614684eed73de4d97b39edfda
+MD5sum: a82027e89a6aec873d41fff50508753f
+Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
+ This binary is compiled as EGL_TYPE=x11, you should use it in a X environment
+
+Package: libsunxi-mali-x11-dev
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6-dev
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: libdevel
+Filename: pool/main/libs/libsunxi-mali-x11-dev/libsunxi-mali-x11-dev_1.0-1_armhf.deb
+Size: 39778
+SHA256: 54f37f9c6273ed54c1f9829896243a36821d43ae20fac711faecea1805fc9e99
+SHA1: d347064b33d86d133906ecef130387e1c8da8b4a
+MD5sum: 697733f91bede4735610aef85605762b
+Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
+ This package contains the development files.
+
+Package: sunxi-disp-test
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/s/sunxi-disp-test/sunxi-disp-test_1.0-1_armhf.deb
+Size: 15074
+SHA256: 18da4375b217d1fc6132801a2f45a30d4402f19ee12d21ee1bc26e75faa4acb6
+SHA1: d4ab6b2c72d737be78c7eb79e07554650873b4c8
+MD5sum: b5d41b5231af2e1bd653441ae68b49b3
+Description: sunxi mali display test programs
+ contains the following program
+ sunxi_disp_test 
+ sunxi_disp_g2d_bench
+ sunxi_disp_vsync_demo
+
+Package: xserver-xorg-video-sunximali
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), libdri2, libsunxi-mali-x11
+Suggests: sunxi-disp-test
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: video
+Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-1_armhf.deb
+Size: 32656
+SHA256: 9075e84e190e49f22268a7f82789072202a4f65c296c4bd8fd62ed957031cf17
+SHA1: 8c8e4b5c0183c1c37ea4dbae3c4e7075a71d3406
+MD5sum: ad85d8c786d96a3e8483380a033404cf
+Description: binary userspace drivers that a fully working system for sunxi
+ The sun4i and sun5i use a Mali400MP1.
+ We have support available for several versions of the mali binary driver stack,
+ even though our kernel tends to come with the R3P0 version.
+ We support framebuffer and X11 as windowing systems.
+
