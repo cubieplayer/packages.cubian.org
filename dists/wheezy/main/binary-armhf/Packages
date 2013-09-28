@@ -153,17 +153,16 @@ Package: udevil
 Architecture: armhf
 Version: 0.4.1
 Depends: libc6, libglib2.0-0, libudev0 (>=143)
-Recommends: 
 Suggests: eject, cifs-utils, curlftpfs, sshfs, davfs2, spacefm
 Conflicts: devmon
 Provides: devmon
 Priority: optional
 Section: utils
 Filename: pool/main/u/udevil/udevil_0.4.1_armhf.deb
-Size: 75028
-SHA256: 5ebd32c1ca0d605bf78a1df2eb11a64ff2507af9a72f029a1ee1c7164d2138a7
-SHA1: 63efefc1508793a1b45d79f0548080465de896bd
-MD5sum: 2f0196c2370711d013e0fd1a17fbc4e4
+Size: 75020
+SHA256: 7f15cb6a65734ba1d6bbb3f1a96f53385fa602dbd813fe01a7cfefac78c01d65
+SHA1: d807241f4536263fec62c0e539111b181fc221dd
+MD5sum: 457f8cabd03bfc637f6af1bbd259d6b6
 Description: Mounts and unmounts removable devices and networks without a
  password (set suid), shows device info, monitors device changes.  Includes
  the devmon automounting script.
@@ -171,16 +170,16 @@ Description: Mounts and unmounts removable devices and networks without a
 Package: xserver-xorg-video-sunximali
 Version: 1.0-1
 Architecture: armhf
-Depends: libc6 (>= 2.13-28), libdri2, libsunxi-mali-x11
+Depends: libc6 (>= 2.13-28), libdri2-1, libsunxi-mali-x11
 Suggests: sunxi-disp-test
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
 Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-1_armhf.deb
-Size: 32656
-SHA256: 9075e84e190e49f22268a7f82789072202a4f65c296c4bd8fd62ed957031cf17
-SHA1: 8c8e4b5c0183c1c37ea4dbae3c4e7075a71d3406
-MD5sum: ad85d8c786d96a3e8483380a033404cf
+Size: 32664
+SHA256: a4337a8ed7f0e0e3b282520efb773bf518f6e7754b6b968042ec0cd2693b49ba
+SHA1: b079e67c4cd3048557444ddd7a2f2e6a3b1d1ff0
+MD5sum: ce9f49040aa9f3a957f03b6f225bd022
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
  We have support available for several versions of the mali binary driver stack,

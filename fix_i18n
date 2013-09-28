@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir -p dists/wheezy/main/i18n/
+bzip2 -cz dists/wheezy/main/binary-armhf/Packages > dists/wheezy/main/i18n/Translation-en_US.bz2
+cp -vf dists/wheezy/main/i18n/Translation-en_US.bz2 dists/wheezy/main/i18n/Translation-en.bz2
