@@ -147,6 +147,27 @@ Description: sunxi mali display test programs
  sunxi_disp_g2d_bench
  sunxi_disp_vsync_demo
 
+Source: udevil
+Maintainer: IgnorantGuru <ignorantguru@gmx.com>
+Package: udevil
+Architecture: armhf
+Version: 0.4.1
+Depends: libc6, libglib2.0-0, libudev0 (>=143)
+Recommends: 
+Suggests: eject, cifs-utils, curlftpfs, sshfs, davfs2, spacefm
+Conflicts: devmon
+Provides: devmon
+Priority: optional
+Section: utils
+Filename: pool/main/u/udevil/udevil_0.4.1_armhf.deb
+Size: 75028
+SHA256: 5ebd32c1ca0d605bf78a1df2eb11a64ff2507af9a72f029a1ee1c7164d2138a7
+SHA1: 63efefc1508793a1b45d79f0548080465de896bd
+MD5sum: 2f0196c2370711d013e0fd1a17fbc4e4
+Description: Mounts and unmounts removable devices and networks without a
+ password (set suid), shows device info, monitors device changes.  Includes
+ the devmon automounting script.
+
 Package: xserver-xorg-video-sunximali
 Version: 1.0-1
 Architecture: armhf
