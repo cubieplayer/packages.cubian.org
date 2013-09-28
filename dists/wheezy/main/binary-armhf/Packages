@@ -176,10 +176,10 @@ Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
 Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-1_armhf.deb
-Size: 32664
-SHA256: a4337a8ed7f0e0e3b282520efb773bf518f6e7754b6b968042ec0cd2693b49ba
-SHA1: b079e67c4cd3048557444ddd7a2f2e6a3b1d1ff0
-MD5sum: ce9f49040aa9f3a957f03b6f225bd022
+Size: 32902
+SHA256: 8460e4a07e48c3ead83455192e6c9383d6852638445c7fbc3429f293fe917f51
+SHA1: 950e5ae8404d5d062a940af6e531cf760ed3bdfe
+MD5sum: 35890f370311c459aca8f2711102a980
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
  We have support available for several versions of the mali binary driver stack,
