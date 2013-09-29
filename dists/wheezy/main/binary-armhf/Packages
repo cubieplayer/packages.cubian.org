@@ -99,18 +99,19 @@ Description: library for the DRI2 extension to the X Window System
  This package contains the development files.
 
 Package: libsunxi-mali-x11
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
 Depends: libc6 (>= 2.13-28)
+Conflicts: libegl1-mesa-drivers, libegl1-mesa
 Homepage: https://github.com/linux-sunxi/sunxi-mali
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libs
-Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-1_armhf.deb
-Size: 431820
-SHA256: 715d209eac0930bf3357438807b77f86e78e32a99137b223a0a35daa068dbe95
-SHA1: f23fd21cee8bcc7614684eed73de4d97b39edfda
-MD5sum: a82027e89a6aec873d41fff50508753f
+Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-2_armhf.deb
+Size: 432730
+SHA256: 96cbc014b0639887a0efa0f010b5892aa3a5664a4c36f0e790bfcfef96ebe142
+SHA1: 9cd14fcb5ba2b28a18dd24a032708d608b84569f
+MD5sum: 4ddb7af53d33189d1091791c2decb9ba
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This binary is compiled as EGL_TYPE=x11, you should use it in a X environment
 
