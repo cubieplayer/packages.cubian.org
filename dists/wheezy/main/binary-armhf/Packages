@@ -99,7 +99,7 @@ Description: library for the DRI2 extension to the X Window System
  This package contains the development files.
 
 Package: libsunxi-mali-x11
-Version: 1.0-2
+Version: 1.0-3
 Architecture: armhf
 Depends: libc6 (>= 2.13-28)
 Conflicts: libegl1-mesa-drivers, libegl1-mesa
@@ -107,26 +107,26 @@ Homepage: https://github.com/linux-sunxi/sunxi-mali
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libs
-Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-2_armhf.deb
-Size: 432730
-SHA256: 96cbc014b0639887a0efa0f010b5892aa3a5664a4c36f0e790bfcfef96ebe142
-SHA1: 9cd14fcb5ba2b28a18dd24a032708d608b84569f
-MD5sum: 4ddb7af53d33189d1091791c2decb9ba
+Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-3_armhf.deb
+Size: 431842
+SHA256: 176dbf668108e8f5a213aa8049118b0578ac36c475466ad07d88bbd590d58dd1
+SHA1: 65211a3f9308783478ce46fc014141e75fcb2c5a
+MD5sum: ec56c2923f1c5933b7df1cf49990e6da
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This binary is compiled as EGL_TYPE=x11, you should use it in a X environment
 
 Package: libsunxi-mali-x11-dev
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
-Depends: libc6-dev
+Depends: libsunxi-mali-x11
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libdevel
-Filename: pool/main/libs/libsunxi-mali-x11-dev/libsunxi-mali-x11-dev_1.0-1_armhf.deb
-Size: 39778
-SHA256: 54f37f9c6273ed54c1f9829896243a36821d43ae20fac711faecea1805fc9e99
-SHA1: d347064b33d86d133906ecef130387e1c8da8b4a
-MD5sum: 697733f91bede4735610aef85605762b
+Filename: pool/main/libs/libsunxi-mali-x11-dev/libsunxi-mali-x11-dev_1.0-2_armhf.deb
+Size: 39974
+SHA256: 0e371e8ff991d34acc96cf0b5fd5990f66b70102742a11a052ea81b5eae24baf
+SHA1: cedfbb17b332a3c9e50117a116d71a401bf0ad79
+MD5sum: 6ae276e7ba46125b790575ecf507e099
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This package contains the development files.
 
@@ -169,18 +169,18 @@ Description: Mounts and unmounts removable devices and networks without a
  the devmon automounting script.
 
 Package: xserver-xorg-video-sunximali
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
-Depends: libc6 (>= 2.13-28), libdri2-1, libsunxi-mali-x11
+Depends: libc6 (>= 2.13-28), libdri2-1, libsunxi-mali-x11-dev
 Suggests: sunxi-disp-test
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
-Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-1_armhf.deb
-Size: 32902
-SHA256: 8460e4a07e48c3ead83455192e6c9383d6852638445c7fbc3429f293fe917f51
-SHA1: 950e5ae8404d5d062a940af6e531cf760ed3bdfe
-MD5sum: 35890f370311c459aca8f2711102a980
+Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-2_armhf.deb
+Size: 32838
+SHA256: d8b8349f29530f6eb82b3b02b847d495f5928d9217ea1086adb0a3edf39a7441
+SHA1: 218c491fe0266e1280e8d51e909ec7dfbce8f165
+MD5sum: 2e2b45e3f2c94075a8055d474e0b45f1
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
  We have support available for several versions of the mali binary driver stack,
