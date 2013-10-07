@@ -44,17 +44,18 @@ Description: update cubian
  This script can update cubian online
 
 Package: libdri2-1
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
+Pre-Depends: multiarch-support
 Depends: libc6 (>= 2.13-28)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libs
-Filename: pool/main/libd/libdri2-1/libdri2-1_1.0-1_armhf.deb
-Size: 33494
-SHA256: fecad415f8e9b030e1eb525244fc1300495546a64be6583151654220d1ca7896
-SHA1: d3058796ed3b8ace8465c79752aedf3f36b77b64
-MD5sum: 3db41ffb8469efb9658efa619ede1c50
+Filename: pool/main/libd/libdri2-1/libdri2-1_1.0-2_armhf.deb
+Size: 6492
+SHA256: 9659ce51f4fd253ca56a454c050bc5cc22335f9cdaac4db6a193695da960d546
+SHA1: 3b8e1a774094f961ad70cb21bf09d0204ece4713
+MD5sum: 119c014379c4ec1d44f3f1df7517e0c0
 Description: library for the DRI2 extension to the X Window System
  libdri2 - library for the DRI2 extension to the X Window System
  All questions regarding this software should be directed at the
@@ -71,17 +72,17 @@ Description: library for the DRI2 extension to the X Window System
     http://wiki.x.org/wiki/GitPage
 
 Package: libdri2-dev
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
-Depends: libc6-dev
+Suggests: pkg-config
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libdevel
-Filename: pool/main/libd/libdri2-dev/libdri2-dev_1.0-1_armhf.deb
-Size: 4264
-SHA256: a587540f7ed6a04ab20f54f915d0aaf52f1ccbf1345726abeb7d88e1772b698e
-SHA1: 289599822d199404dbda1b3697d06840a6c8454e
-MD5sum: 9fd517f9d2e252d73357c58c216d25c2
+Filename: pool/main/libd/libdri2-dev/libdri2-dev_1.0-2_armhf.deb
+Size: 32334
+SHA256: 5da648637975ca28435c8b09b2b0c85bb637bcc6409a431fa058c3fe1fa49d47
+SHA1: faff28b858ebd4c23415965dea159286794d1d7a
+MD5sum: b520bb2e5f76dc00a6f79dcc0506c91e
 Description: library for the DRI2 extension to the X Window System
  libdri2 - library for the DRI2 extension to the X Window System
  All questions regarding this software should be directed at the
@@ -99,7 +100,7 @@ Description: library for the DRI2 extension to the X Window System
  This package contains the development files.
 
 Package: libsunxi-mali-x11
-Version: 1.0-3
+Version: 1.0-4
 Architecture: armhf
 Depends: libc6 (>= 2.13-28)
 Conflicts: libegl1-mesa-drivers, libegl1-mesa
@@ -107,26 +108,26 @@ Homepage: https://github.com/linux-sunxi/sunxi-mali
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libs
-Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-3_armhf.deb
-Size: 431842
-SHA256: 176dbf668108e8f5a213aa8049118b0578ac36c475466ad07d88bbd590d58dd1
-SHA1: 65211a3f9308783478ce46fc014141e75fcb2c5a
-MD5sum: ec56c2923f1c5933b7df1cf49990e6da
+Filename: pool/main/libs/libsunxi-mali-x11/libsunxi-mali-x11_1.0-4_armhf.deb
+Size: 431894
+SHA256: 14c73ad3aae15888e5643902638bdf6df2dafb1dbe7c5db64bf0e289d7f89ade
+SHA1: c43928ebc5458c0d8aa561a3d33b6496a4876c22
+MD5sum: 02bc22cf006708efd747d0fb9be9c0aa
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This binary is compiled as EGL_TYPE=x11, you should use it in a X environment
 
 Package: libsunxi-mali-x11-dev
-Version: 1.0-2
+Version: 1.0-3
 Architecture: armhf
 Depends: libsunxi-mali-x11
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libdevel
-Filename: pool/main/libs/libsunxi-mali-x11-dev/libsunxi-mali-x11-dev_1.0-2_armhf.deb
-Size: 39974
-SHA256: 0e371e8ff991d34acc96cf0b5fd5990f66b70102742a11a052ea81b5eae24baf
-SHA1: cedfbb17b332a3c9e50117a116d71a401bf0ad79
-MD5sum: 6ae276e7ba46125b790575ecf507e099
+Filename: pool/main/libs/libsunxi-mali-x11-dev/libsunxi-mali-x11-dev_1.0-3_armhf.deb
+Size: 39764
+SHA256: 0e3bab99748dba3816228301b00319f4d914181f9aa7172389f71c5b72b31978
+SHA1: 08ccc6bafc9426c45ec79667344321cb75fe1eb4
+MD5sum: 785e2f0501d3f49afb0a2839954d8c63
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This package contains the development files.
 
@@ -169,18 +170,18 @@ Description: Mounts and unmounts removable devices and networks without a
  the devmon automounting script.
 
 Package: xserver-xorg-video-sunximali
-Version: 1.0-2
+Version: 1.0-3
 Architecture: armhf
-Depends: libc6 (>= 2.13-28), libdri2-1, libsunxi-mali-x11-dev
+Depends: libc6 (>= 2.13-28), libdri2-1 (>=1.0-2), libsunxi-mali-x11 (>=1.0-4)
 Suggests: sunxi-disp-test
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
-Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-2_armhf.deb
-Size: 32838
-SHA256: d8b8349f29530f6eb82b3b02b847d495f5928d9217ea1086adb0a3edf39a7441
-SHA1: 218c491fe0266e1280e8d51e909ec7dfbce8f165
-MD5sum: 2e2b45e3f2c94075a8055d474e0b45f1
+Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-3_armhf.deb
+Size: 32844
+SHA256: 2c4b1444a691d83bec22a1dfcda4b70a652e0c40c2c50a5035298e57076500fa
+SHA1: b777a5cd441ef50468b9b38c3cbea7b5cafc4682
+MD5sum: bc5a68fd1e39ec50564c4bf474135356
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
  We have support available for several versions of the mali binary driver stack,
