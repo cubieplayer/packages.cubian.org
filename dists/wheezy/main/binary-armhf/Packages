@@ -72,17 +72,18 @@ Description: library for the DRI2 extension to the X Window System
     http://wiki.x.org/wiki/GitPage
 
 Package: libdri2-dev
-Version: 1.0-2
+Version: 1.0-3
 Architecture: armhf
 Suggests: pkg-config
+Depends: libdri2-1 (>= 1.0-2)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: libdevel
-Filename: pool/main/libd/libdri2-dev/libdri2-dev_1.0-2_armhf.deb
-Size: 32334
-SHA256: 5da648637975ca28435c8b09b2b0c85bb637bcc6409a431fa058c3fe1fa49d47
-SHA1: faff28b858ebd4c23415965dea159286794d1d7a
-MD5sum: b520bb2e5f76dc00a6f79dcc0506c91e
+Filename: pool/main/libd/libdri2-dev/libdri2-dev_1.0-3_armhf.deb
+Size: 32998
+SHA256: 821a4acd0e54d43547699b512b0db9b57a293b4d01c86a57dcceaceb4e497121
+SHA1: 6632bc85094ac725442e7533cf14c9e5a13f23b4
+MD5sum: e1e88f3ad9d929b9913ccda0ad38dc9c
 Description: library for the DRI2 extension to the X Window System
  libdri2 - library for the DRI2 extension to the X Window System
  All questions regarding this software should be directed at the
