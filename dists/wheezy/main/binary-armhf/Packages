@@ -29,17 +29,17 @@ Description: resize cubian rootfs
  A helper script which can resize cubian rootfs to occupy the full SD-card
 
 Package: cubian-update
-Version: 1.2-1
+Version: 1.2-3
 Architecture: all
 Depends: git (>= 1.7), coreutils(>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-update/cubian-update_1.2-1_all.deb
-Size: 7468
-SHA256: fa2ef2581d04a4499d58af730ca462fc85bd43ec91fa70576d70660ef6a986d7
-SHA1: 2e49734530bd79b113a7b859ffdef8fb0ef13cde
-MD5sum: 67f670b2669f46ff7764c3ccb57b854e
+Filename: pool/main/c/cubian-update/cubian-update_1.2-3_all.deb
+Size: 7534
+SHA256: a2ca2e0b6b1fb700802d7fe035f1ef6b12dee30e8869e248b7d81705937670e2
+SHA1: 6b2f25e314b61d05da2cf5eeab526e39ac625c4e
+MD5sum: 31e82da5ca9115f08fa9b6057186b045
 Description: update cubian
  This script can update cubian online
 
