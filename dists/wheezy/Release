@@ -2,19 +2,19 @@ Origin: Cubian
 Label: Cubian Packages
 Codename: wheezy
 Version: 7.0
-Date: Sat, 02 Nov 2013 22:05:36 UTC
+Date: Mon, 04 Nov 2013 15:31:16 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for cubian
 MD5Sum:
- 921e71f1335a85e1c934003687820643 7359 main/binary-armhf/Packages
- 67af4170b24c0e8d1a2791dd56aea603 2671 main/binary-armhf/Packages.gz
+ 0a86dc0b8bbe4938d3471f88b497fad7 13558 main/binary-armhf/Packages
+ 460e7f97300f5b2e09e5e2949672341f 4748 main/binary-armhf/Packages.gz
  4faa0ac2d85cc893eb93e0852bfb1ef2 126 main/binary-armhf/Release
 SHA1:
- 292a96a029f6b84840fa66286350b68d62919ae0 7359 main/binary-armhf/Packages
- f5d09f0e4ea37b205671916e00efee771a9e1f30 2671 main/binary-armhf/Packages.gz
+ 175e97dd77951c7b959de6570bff6a318464d1af 13558 main/binary-armhf/Packages
+ d097628fd07a18dcbc2ce3e0b59545a31eb26f17 4748 main/binary-armhf/Packages.gz
  4f5ddd944fa6fb192838bfc75054c71507ba7da5 126 main/binary-armhf/Release
 SHA256:
- b4e1a9dce66d997c5c1a72d40b149c0a218765d643a6f70ade1796792d5c18f5 7359 main/binary-armhf/Packages
- 5e399d5e4ef06cb197500b68f0d03746ae89626a725823458f41a09bf7a10c4b 2671 main/binary-armhf/Packages.gz
+ a01321f51c5cf27f86642a9fa53c17bf4dd3122fc981b3efa05d655c5aac3868 13558 main/binary-armhf/Packages
+ 8bba06387f5a669ca5f7cbbc37c00299b278cd526b03c2dccadd223e3a1c623f 4748 main/binary-armhf/Packages.gz
  d8b6a8b10b05d91de45e1799db6f599d1aa7a3921e6b2e21648c099d75fe5ba2 126 main/binary-armhf/Release

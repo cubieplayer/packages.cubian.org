@@ -1,3 +1,82 @@
+Package: chromium
+Source: chromium-browser
+Version: 16.0.912.75~r116452-1
+Architecture: armhf
+Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
+Installed-Size: 47070
+Depends: libasound2 (>> 1.0.24.1), libbz2-1.0, libc6 (>= 2.11), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libevent-2.0-5 (>= 2.0.16-stable), libexpat1 (>= 1.95.8), libflac8 (>= 1.2.1), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.4.0), libgconf2-4 (>= 2.31.1), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libnspr4-0d (>= 1.8.0.10), libnss3-1d (>= 3.12.3), libpango1.0-0 (>= 1.20.0), libpng12-0 (>= 1.2.13-4), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.6), libv8-3.6.6.14, libvpx0 (>= 0.9.6), libwebp2, libx11-6, libxext6, libxml2 (>= 2.7.4), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, zlib1g (>= 1:1.2.0), xdg-utils, chromium-inspector, libavcodec53 (>= 4:0.8-1~) | libavcodec-extra-53 (>= 4:0.8-1~), libavformat53 (>= 4:0.8-1~) | libavformat-extra-53 (>= 4:0.8-1~), libavutil51 (>= 4:0.8-1~) | libavutil-extra-51 (>= 4:0.8-1~)
+Suggests: chromium-l10n
+Conflicts: chromium-browser (<< 10.0.648.82~r75062-1~), chromium-codecs-ffmpeg, chromium-codecs-ffmpeg-extra, chromium-testsuite
+Replaces: chromium-browser (<< 10.0.648.82~r75062-1~), chromium-codecs-ffmpeg, chromium-codecs-ffmpeg-extra, chromium-testsuite
+Provides: chromium-testsuite, gnome-www-browser, www-browser
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium_16.0.912.75~r116452-1_armhf.deb
+Size: 22182732
+SHA256: 42a1dfcd274a542769a632e17c7898ea38f5d5650133090dadb1587152887594
+SHA1: 63f12db6ed75fbcdc3562e0526ce9fc03d71b26f
+MD5sum: fabda1d08888b718f85de043cd4a90ca
+Description: Google's open source chromium web browser
+ Chromium is an open-source browser project that aims to build a safer, faster,
+ and more stable way for all Internet users to experience the web.
+ .
+ Chromium serves as a base for Google Chrome, which is Chromium rebranded (name
+ and logo) with very few additions such as usage tracking and an auto-updater
+ system.
+ .
+ This package contains the Chromium browser.
+
+Package: chromium-inspector
+Source: chromium-browser
+Version: 16.0.912.75~r116452-1
+Architecture: all
+Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
+Installed-Size: 3757
+Recommends: chromium (>= 10)
+Conflicts: chromium (<< 16.0.912.75~r116452-1), chromium-browser-inspector (<< 10.0.648.82~r75062-1~)
+Replaces: chromium-browser-inspector (<< 10.0.648.82~r75062-1~)
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-inspector_16.0.912.75~r116452-1_all.deb
+Size: 806188
+SHA256: 2a5b7464b8b5687693f3710f04a4dc914dbcebc2608236e18007b2b9eefe9d0c
+SHA1: b4493d834137dfadf272f98f4d5a8f7708152e17
+MD5sum: ffdf6e492b71c8a40db8e6f0f09edbf3
+Description: page inspector for the chromium browser
+ Chromium is an open-source browser project that aims to build a safer, faster,
+ and more stable way for all Internet users to experience the web.
+ .
+ This package contains 'inspector', allowing web developers to inspect any
+ element of a web page at runtime (HTML, JavaScript, CSS, ..).
+
+Package: chromium-l10n
+Source: chromium-browser
+Version: 16.0.912.75~r116452-1
+Architecture: all
+Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
+Installed-Size: 10444
+Depends: chromium (>= 16.0.912.75~r116452-1)
+Conflicts: chromium-browser-l10n (<< 10.0.648.82~r75062-1~)
+Replaces: chromium-browser-l10n (<< 10.0.648.82~r75062-1~)
+Homepage: http://code.google.com/chromium/
+Priority: optional
+Section: web
+Filename: pool/main/c/chromium-browser/chromium-l10n_16.0.912.75~r116452-1_all.deb
+Size: 2866482
+SHA256: 11fa0cd036617588f2797b760a2f12206a367d9c43c9119ef8af2e10ef655f06
+SHA1: 274cb01fe254052099abfd069a2937c5ebed36b3
+MD5sum: 817f3e9cf33ea9c1fb12ecc4d9500aba
+Description: chromium-browser language packages
+ Chromium is an open-source browser project that aims to build a safer, faster,
+ and more stable way for all Internet users to experience the web.
+ .
+ This package contains language packages for 50 languages:
+ am, ar, bg, bn, ca, cs, da, de, el, en-GB, es-419, es, et, fi, fil, fr, gu, he,
+ hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, nb, nl, pl, pt-BR, pt-PT,
+ ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
+
 Package: cubian-nandinstall
 Version: 1.0-5
 Architecture: all
@@ -131,6 +210,51 @@ SHA1: 08ccc6bafc9426c45ec79667344321cb75fe1eb4
 MD5sum: 785e2f0501d3f49afb0a2839954d8c63
 Description: Mali userspace drivers, including proprietary OpenGLESv2/EGL binaries.
  This package contains the development files.
+
+Package: libv8-3.6.6.14
+Source: libv8
+Version: 3.6.6.14-2
+Architecture: armhf
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Installed-Size: 2160
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.4.0), libicu48 (>= 4.8-1), libstdc++6 (>= 4.4.0)
+Homepage: http://code.google.com/p/v8/
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libv8/libv8-3.6.6.14_3.6.6.14-2_armhf.deb
+Size: 1100092
+SHA256: aeb6aaa9c6a3eb1fe41395dbe3a033aaaf31b3f2b7ea7f271c7f618f718decab
+SHA1: 8d733326a2f121c544cd525a6cd995fe799b1b87
+MD5sum: 7b46bf2994d920410ff738b0ac993d2c
+Description: v8 JavaScript engine - runtime library
+ V8 is a high performance JavaScript engine written in C++.  It is used
+ in the web browser Chromium.
+ .
+ This package includes the dynamic library against which you can link
+ your program.
+
+Package: libvpx0
+Source: libvpx
+Version: 0.9.7.p1-2
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sebastian Dröge <slomo@debian.org>
+Installed-Size: 393
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.4.0)
+Homepage: http://www.webmproject.org
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libvpx/libvpx0_0.9.7.p1-2_armhf.deb
+Size: 217602
+SHA256: 6047ed169b4885f984f04b25ef872e94a6a750b74cef47c4fee4a4333da5701b
+SHA1: a6671186dfdf8ac9d4e6714ecac225a7c20b45c4
+MD5sum: b0f0253fa0a00fc4e3061c6648811932
+Description: VP8 video codec (shared library)
+ VP8 is an open video codec, originally developed by On2 and released
+ as open source by Google Inc. It is the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
 
 Package: sunxi-disp-test
 Version: 1.0-1
