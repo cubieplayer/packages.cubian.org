@@ -122,6 +122,22 @@ MD5sum: 9be4722ac6078647ba6e39b72eb85c6d
 Description: update cubian
  This script can update cubian online
 
+Package: goagent-client
+Version: 3.0-5
+Architecture: all
+Depends: python (>= 2.7.3), python-openssl, python-gevent
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/g/goagent-client/goagent-client_3.0-5_all.deb
+Size: 478016
+SHA256: f2d6d26d618a5b6746c0986b73b530baad9816fa3d9abe7e8a019a0cf0b54e79
+SHA1: 5db25550102dd6fee8fe0025e504c1c210d88346
+MD5sum: 6fbc8f9984d7fdaa0079528f5ef83559
+Description: a web proxy using google appengine service
+ This is a client side for goagent http://code.google.com/p/goagent/.
+ http://www.goagent.org/
+
 Package: libdri2-1
 Version: 1.0-2
 Architecture: armhf
