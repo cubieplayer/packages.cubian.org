@@ -290,6 +290,22 @@ Description: sunxi mali display test programs
  sunxi_disp_g2d_bench
  sunxi_disp_vsync_demo
 
+Package: sunxi-tools
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6 (>= 2.13)
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: admin
+Filename: pool/main/s/sunxi-tools/sunxi-tools_1.0-1_armhf.deb
+Size: 16710
+SHA256: 8eb46b51d0769713c57efca886a902557353880849c432246df692101c93d572
+SHA1: 4314d6e2346bb4f05625f8db67bb52bb4ad17d00
+MD5sum: aed1f034df5d580d47b12522d89ad5ca
+Description: tools to help hacking Allwinner A10/A20 devices
+ contains nand-part for A10 and A20, fex2bin, bin2fex
+http://linux-sunxi.org/
+
 Source: udevil
 Maintainer: IgnorantGuru <ignorantguru@gmx.com>
 Package: udevil
