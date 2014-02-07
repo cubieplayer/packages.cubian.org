@@ -3,6 +3,6 @@ Label: Cubian Packages
 Codename: wheezy
 Version: 7.0
 Architectures: armhf
-Components: main
+Components: main non-free
 Description: Apt repository for cubian
 SignWith: 1F0C9FFD

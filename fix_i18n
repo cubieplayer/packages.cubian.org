@@ -2,3 +2,6 @@
 mkdir -p dists/wheezy/main/i18n/
 bzip2 -cz dists/wheezy/main/binary-armhf/Packages > dists/wheezy/main/i18n/Translation-en_US.bz2
 cp -vf dists/wheezy/main/i18n/Translation-en_US.bz2 dists/wheezy/main/i18n/Translation-en.bz2
+mkdir -p dists/wheezy/non-free/i18n/
+bzip2 -cz dists/wheezy/non-free/binary-armhf/Packages > dists/wheezy/non-free/i18n/Translation-en_US.bz2
+cp -vf dists/wheezy/non-free/i18n/Translation-en_US.bz2 dists/wheezy/non-free/i18n/Translation-en.bz2
