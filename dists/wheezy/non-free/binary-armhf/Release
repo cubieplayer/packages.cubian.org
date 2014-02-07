@@ -1,0 +1,6 @@
+Version: 7.0
+Component: non-free
+Origin: Cubian
+Label: Cubian Packages
+Architecture: armhf
+Description: Apt repository for cubian
