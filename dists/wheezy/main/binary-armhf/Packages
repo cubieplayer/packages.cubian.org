@@ -249,6 +249,24 @@ Description: v8 JavaScript engine - runtime library
  This package includes the dynamic library against which you can link
  your program.
 
+Package: libvdpau-sunxi
+Version: 1.0-1
+Architecture: armhf
+Depends: libc6 (>=2.13-28), libgcc1 (>= 1:4.4.0), libx11-6 (>= 2:1.4.99.1), libxext6
+Suggests: mplayer2
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: video
+Filename: pool/main/libv/libvdpau-sunxi/libvdpau-sunxi_1.0-1_armhf.deb
+Size: 17470
+SHA256: 6902be992a7cdb64ecbb174e8f785086c14e6af85ab80bbe03fd1088f8d54e67
+SHA1: 791ee4e49fbd9022398ef287d576283f48237021
+MD5sum: 7ab7b6f40b3655ddef66a02474c4a367
+Description: experimental VDPAU implementation for sunxi SoCs.
+ Most features of full VDPAU are missing, only decoding of h264, mpeg1 and mpeg2
+ and output of software-decoded videos will work.
+ For more information: https://github.com/linux-sunxi/libvdpau-sunxi
+
 Package: libvpx0
 Source: libvpx
 Version: 0.9.7.p1-2
