@@ -122,6 +122,21 @@ MD5sum: 9be4722ac6078647ba6e39b72eb85c6d
 Description: update cubian
  This script can update cubian online
 
+Package: cubieplayer
+Version: 1.0-1
+Architecture: armhf
+Depends: python (>= 2.6), python-qt4 (>= 4.9), mplayer2 (>= 2.0), libvdpau-sunxi(>= 1.0)
+Maintainer: cubian developer <sophiasmth@gmail.com>
+Priority: optional
+Section: video
+Filename: pool/main/c/cubieplayer/cubieplayer_1.0-1_armhf.deb
+Size: 461338
+SHA256: d00cc5ab52b856b9c72fd05a78846af338bf74fbe9c1dc9e8bb77083bb0ca2bf
+SHA1: 50edfea0b4c850542cf3252cd2bdacbc6fe667de
+MD5sum: 9f994e04dbd66e4552e672dfd0a6283f
+Description: media player on cubian
+ A powerful mediaplayer on cubian system
+
 Package: goagent-client
 Version: 3.0-5
 Architecture: all
@@ -289,6 +304,141 @@ Description: VP8 video codec (shared library)
  on which the Theora codec was based.
  .
  This package contains the shared libraries.
+
+Package: linux-headers-3.4.79-sun4i
+Source: linux-source-3.4.79-sun4i
+Version: 3.4.79
+Architecture: armhf
+Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
+Installed-Size: 38258
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.4
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-headers-3.4.79-sun4i_3.4.79_armhf.deb
+Size: 7632808
+SHA256: da9159f5029e4bad3b5fbe00ed26eba7f31a42e324c9b9051d69d811d61bd78b
+SHA1: d708a7764dbf847f34695ca5c621e376314f97c5
+MD5sum: 3e7f1541c8161bbe945437db92a7c63f
+Description: Header files related to Linux kernel, specifically,
+ version 3.4.79-sun4i
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.4.79-sun4i.
+ Please read
+ /usr/share/doc/linux-headers-3.4.79-sun4i/debian.README.gz
+ for details
+
+Package: linux-headers-3.4.79-sun7i
+Source: linux-source-3.4.79-sun7i
+Version: 3.4.79
+Architecture: armhf
+Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
+Installed-Size: 38419
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), binutils (>= 2.12), util-linux (>= 2.10o)
+Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
+Provides: linux-headers, linux-headers-3.4
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-headers-3.4.79-sun7i_3.4.79_armhf.deb
+Size: 7636548
+SHA256: 953f257a5e0d0b776621a4ff71001cbc721295aaac95bdb64dc9fe71ab12a429
+SHA1: 4a1ebd9a95689503920b9c23d64415fa0d61288e
+MD5sum: 4964d5c30dda99797b05be9422b3be88
+Description: Header files related to Linux kernel, specifically,
+ version 3.4.79-sun7i
+ .
+ This package provides kernel header files for sites
+ that want the latest kernel headers for version
+ 3.4.79-sun7i.
+ Please read
+ /usr/share/doc/linux-headers-3.4.79-sun7i/debian.README.gz
+ for details
+
+Package: linux-image-3.4.79-headless-sun4i
+Source: linux-source-3.4.79-sun4i
+Version: 3.4.79+headless
+Architecture: armhf
+Maintainer: cubieplayer <sophiasmth@gmail.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
+Conflicts: linux-image-3.4.79-sun4i
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-headless-sun4i_3.4.79+headless_armhf.deb
+Size: 13820072
+SHA256: d8da729b21342a801dd2b7b5fe5f139ae8127de6c738b90ba37f799b2e8260ae
+SHA1: c36905f269df64a9be05ade625cbde26d4b64107
+MD5sum: 1e82e1f98b0c516656431788ff0983c4
+Description: Linux 3.4 for allwinner A10 devices
+ The Linux kernel 3.4 and modules for use on allwinner A10 devices.
+ This kernel is developed and maintained by linux-sunxi
+ https://github.com/linux-sunxi/linux-sunxi.
+
+Package: linux-image-3.4.79-headless-sun7i
+Source: linux-source-3.4.79-sun7i
+Version: 3.4.79+headless
+Architecture: armhf
+Maintainer: cubieplayer <sophiasmth@gmail.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
+Conflicts: linux-image-3.4.79-sun7i
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-headless-sun7i_3.4.79+headless_armhf.deb
+Size: 14790936
+SHA256: 9fba956ab432718479f24d14ba48dfc2b4e1c06cd99c683bc2ac9965a7e67b08
+SHA1: 077361c7becda3e6dee3c838a39dddcd1497f9d2
+MD5sum: 81f9744cdc8c324638ad478a2bc91a72
+Description: Linux 3.4.79 for allwinner A10 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
+ This kernel is developed and maintained by linux-sunxi
+ https://github.com/linux-sunxi/linux-sunxi.
+
+Package: linux-image-3.4.79-sun4i
+Source: linux-source-3.4.79-sun4i
+Version: 3.4.79
+Architecture: armhf
+Maintainer: cubieplayer <sophiasmth@gmail.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-sun4i_3.4.79_armhf.deb
+Size: 13944234
+SHA256: 00d2c7c670eafffc4f03421d966716a6998de337cb755680adf0c4883b9dad67
+SHA1: 93ad078e35f4d84959f95ebca6417521e8b4cc70
+MD5sum: 613153b49a02f5ba73aaa2a761fe89ab
+Description: Linux 3.4 for allwinner A10 devices
+ The Linux kernel 3.4 and modules for use on allwinner A10 devices.
+ This kernel is developed and maintained by linux-sunxi
+ https://github.com/linux-sunxi/linux-sunxi.
+
+Package: linux-image-3.4.79-sun7i
+Source: linux-source-3.4.79-sun7i
+Version: 3.4.79
+Architecture: armhf
+Maintainer: cubieplayer <sophiasmth@gmail.com>
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
+Conflicts: linux-image-3.4.79-headless-sun7i
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-sun7i_3.4.79_armhf.deb
+Size: 14918282
+SHA256: 23e06858e02f303022bd1e21f1d2d90aca7ec388e45d275c34e0b1ad9bdb27c4
+SHA1: ee0ef714529a409c2bb1ab637999a24cf80f8483
+MD5sum: f84bfa86e04647a44871d6cf4fc300da
+Description: Linux 3.4.79 for allwinner A10 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
+ This kernel is developed and maintained by linux-sunxi
+ https://github.com/linux-sunxi/linux-sunxi.
 
 Package: sunxi-disp-test
 Version: 1.0-1
