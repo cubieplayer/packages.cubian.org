@@ -478,18 +478,18 @@ Source: udevil
 Maintainer: IgnorantGuru <ignorantguru@gmx.com>
 Package: udevil
 Architecture: armhf
-Version: 0.4.1-2
+Version: 0.4.1-3
 Depends: libc6, libglib2.0-0, libudev0 (>=143)
 Suggests: eject, cifs-utils, curlftpfs, sshfs, davfs2, spacefm
 Conflicts: devmon
 Provides: devmon
 Priority: optional
 Section: utils
-Filename: pool/main/u/udevil/udevil_0.4.1-2_armhf.deb
-Size: 80094
-SHA256: d58a6435fe17bfd3f51ecbdd5ff4e9713d32f41fae3f2e4bcb9180896fce596c
-SHA1: 52cea923c0713a2349028da084b5264972ac1bb4
-MD5sum: 783096011bb7c0790be28fa1d1712631
+Filename: pool/main/u/udevil/udevil_0.4.1-3_armhf.deb
+Size: 80082
+SHA256: 894798cd77bb2bc25d4aa197356a1c59162a1a167b4e0fa96a5d82cdbae8c3e2
+SHA1: 5a02009cdb880f842474c5b4b81339207b19c4a2
+MD5sum: bae2bf1a17854e24c9f177e15083e6ef
 Description: Mounts and unmounts removable devices and networks without a
  password (set suid), shows device info, monitors device changes.  Includes
  the devmon automounting script.
