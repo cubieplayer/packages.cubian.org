@@ -78,17 +78,17 @@ Description: chromium-browser language packages
  ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
 
 Package: cubian-nandinstall
-Version: 1.0-5
+Version: 1.0-6
 Architecture: all
 Depends: coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-5_all.deb
-Size: 533186
-SHA256: 72d0968013c178d9f9441add8e93f26395283ea0f102dd3ea99274bee1d6f5c0
-SHA1: 543f20d6ea2a954c3ab685b591711bb35806242b
-MD5sum: bc5039c2294f98337afe02d6cb15b10b
+Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.0-6_all.deb
+Size: 539128
+SHA256: 16af854cbc90593b7fb6e24da1420bd4ef3168732e5972f9d8587990533d4426
+SHA1: 593d8787c26cc55c9504769ed87308c2e69c8d7c
+MD5sum: ec0a4f30ed462599f68b280806665530
 Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
@@ -495,21 +495,20 @@ Description: Mounts and unmounts removable devices and networks without a
  the devmon automounting script.
 
 Package: xserver-xorg-video-sunximali
-Version: 1.0-3
+Version: 1.0-4
 Architecture: armhf
 Depends: libc6 (>= 2.13-28), libdri2-1 (>=1.0-2), libsunxi-mali-x11 (>=1.0-4)
 Suggests: sunxi-disp-test
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
-Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-3_armhf.deb
-Size: 32844
-SHA256: 2c4b1444a691d83bec22a1dfcda4b70a652e0c40c2c50a5035298e57076500fa
-SHA1: b777a5cd441ef50468b9b38c3cbea7b5cafc4682
-MD5sum: bc5a68fd1e39ec50564c4bf474135356
+Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-4_armhf.deb
+Size: 27580
+SHA256: 83f6b35353e1d5e6b8407addfdaccf6ab80fabe60fdc62783feacad9eaf9b48e
+SHA1: 187a6b6ab286562cd079270c318add6b50581a39
+MD5sum: a53d6100b3df7d075911d415fccd7376
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
- We have support available for several versions of the mali binary driver stack,
- even though our kernel tends to come with the R3P0 version.
+ We have support available for several versions of the mali binary driver stack, even though our kernel tends to come with the R3P0 version.
  We support framebuffer and X11 as windowing systems.
 
