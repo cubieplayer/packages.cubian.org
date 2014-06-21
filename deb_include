@@ -1,2 +1,4 @@
 #!/bin/sh
 reprepro includedeb wheezy $@
+#reprepro -C non-free includedeb wheezy $@
+
