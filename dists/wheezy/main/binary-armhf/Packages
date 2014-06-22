@@ -78,17 +78,17 @@ Description: chromium-browser language packages
  ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
 
 Package: cubian-nandinstall
-Version: 1.1-4
-Architecture: all
+Version: 1.1-5
+Architecture: armhf
 Depends: coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.1-4_all.deb
-Size: 388744
-SHA256: b799d49643197e405e492711e536d6272b256d269247ffa68038b73ec34a42a2
-SHA1: 10b8d87c4e8d8d9849cd768cb61ccdb863b74cde
-MD5sum: b617a5dbfa92789fe66ebf498e8068cd
+Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.1-5_armhf.deb
+Size: 388962
+SHA256: fc385e2cbb6750855ed78e6ad81154b57198ef5b98e1c4c5f8e528d8dd9ca0ca
+SHA1: 7e885645cd193d605ffb9570dba15ef8ab0f954d
+MD5sum: 01c0dbba4bbc0eba8612cb5b0f06dccb
 Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
@@ -307,7 +307,7 @@ Description: VP8 video codec (shared library)
 
 Package: linux-headers-3.4.79-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79
+Version: 3.4.79-2cubian
 Architecture: armhf
 Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
 Installed-Size: 38258
@@ -316,11 +316,11 @@ Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
 Provides: linux-headers, linux-headers-3.4
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-headers-3.4.79-sun4i_3.4.79_armhf.deb
-Size: 7632808
-SHA256: da9159f5029e4bad3b5fbe00ed26eba7f31a42e324c9b9051d69d811d61bd78b
-SHA1: d708a7764dbf847f34695ca5c621e376314f97c5
-MD5sum: 3e7f1541c8161bbe945437db92a7c63f
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-headers-3.4.79-sun4i_3.4.79-2cubian_armhf.deb
+Size: 7551612
+SHA256: 1cc2b4ceeeea4c1d3f9d61ec36f4a0fef02e1bd25db3e5c5e13dd95ff009c41c
+SHA1: 54ba948b9c21d5711d5f54494cf6ef77f7d7660d
+MD5sum: 4d915a1bf725271284263cbf228bc170
 Description: Header files related to Linux kernel, specifically,
  version 3.4.79-sun4i
  .
@@ -333,7 +333,7 @@ Description: Header files related to Linux kernel, specifically,
 
 Package: linux-headers-3.4.79-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79
+Version: 3.4.79-2cubian
 Architecture: armhf
 Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
 Installed-Size: 38419
@@ -342,11 +342,11 @@ Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
 Provides: linux-headers, linux-headers-3.4
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-headers-3.4.79-sun7i_3.4.79_armhf.deb
-Size: 7636548
-SHA256: 953f257a5e0d0b776621a4ff71001cbc721295aaac95bdb64dc9fe71ab12a429
-SHA1: 4a1ebd9a95689503920b9c23d64415fa0d61288e
-MD5sum: 4964d5c30dda99797b05be9422b3be88
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-headers-3.4.79-sun7i_3.4.79-2cubian_armhf.deb
+Size: 7554436
+SHA256: 2d928bfe068050cf20ee1887fed948a7ba78ba125c5c3365342ddbbdb061b26a
+SHA1: 76f4872b397da2bbd61eee5751cb51996cd5fa36
+MD5sum: cfea3766b35239aaf894d3a8e5bad2a3
 Description: Header files related to Linux kernel, specifically,
  version 3.4.79-sun7i
  .
@@ -359,7 +359,7 @@ Description: Header files related to Linux kernel, specifically,
 
 Package: linux-image-3.4.79-headless-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79+headless
+Version: 3.4.79+headless-2
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -368,19 +368,19 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
 Conflicts: linux-image-3.4.79-sun4i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-headless-sun4i_3.4.79+headless_armhf.deb
-Size: 13820072
-SHA256: d8da729b21342a801dd2b7b5fe5f139ae8127de6c738b90ba37f799b2e8260ae
-SHA1: c36905f269df64a9be05ade625cbde26d4b64107
-MD5sum: 1e82e1f98b0c516656431788ff0983c4
-Description: Linux 3.4 for allwinner A10 devices
- The Linux kernel 3.4 and modules for use on allwinner A10 devices.
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-headless-sun4i_3.4.79+headless-2_armhf.deb
+Size: 13816142
+SHA256: b2f30da9f63b61a54234f8a44d54249129752e3def43c7822b0bb498f7a8dab8
+SHA1: 245d82186c0cf5be958deeaca82778f115e51987
+MD5sum: a6601a8710f17a2ac052d2c8573f3fb6
+Description: Linux 3.4.79 for allwinner A10 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
  This kernel is developed and maintained by linux-sunxi
  https://github.com/linux-sunxi/linux-sunxi.
 
 Package: linux-image-3.4.79-headless-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79+headless
+Version: 3.4.79+headless-2
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -389,39 +389,40 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
 Conflicts: linux-image-3.4.79-sun7i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-headless-sun7i_3.4.79+headless_armhf.deb
-Size: 14790936
-SHA256: 9fba956ab432718479f24d14ba48dfc2b4e1c06cd99c683bc2ac9965a7e67b08
-SHA1: 077361c7becda3e6dee3c838a39dddcd1497f9d2
-MD5sum: 81f9744cdc8c324638ad478a2bc91a72
-Description: Linux 3.4.79 for allwinner A10 devices
- The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-headless-sun7i_3.4.79+headless-2_armhf.deb
+Size: 14799220
+SHA256: d72be5de7e90f14cef44b4168f3fb0f167b850d1d607a3b3b22272fe272cb70e
+SHA1: f70033fd680ccd466874e19e30ef7c2a26f5e093
+MD5sum: 3609ef46c0b9810674911bfa58e50f40
+Description: Linux 3.4.79 for allwinner A20 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A20 devices.
  This kernel is developed and maintained by linux-sunxi
  https://github.com/linux-sunxi/linux-sunxi.
 
 Package: linux-image-3.4.79-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79
+Version: 3.4.79-2cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
 Depends: coreutils (>= 5.96)
 Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
+Conflicts: linux-image-3.4.79-headless-sun4i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-sun4i_3.4.79_armhf.deb
-Size: 13944234
-SHA256: 00d2c7c670eafffc4f03421d966716a6998de337cb755680adf0c4883b9dad67
-SHA1: 93ad078e35f4d84959f95ebca6417521e8b4cc70
-MD5sum: 613153b49a02f5ba73aaa2a761fe89ab
-Description: Linux 3.4 for allwinner A10 devices
- The Linux kernel 3.4 and modules for use on allwinner A10 devices.
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-sun4i_3.4.79-2cubian_armhf.deb
+Size: 13942748
+SHA256: 7872baa8fb6472b61737e6b1511a15282e0d8045ad98f6231cb4166b3af02bd4
+SHA1: cd198f5b5ec9152aca639a496dbf2e0f8e44916b
+MD5sum: d34bc86ac8d17df2c7a4f6dc65d98739
+Description: Linux 3.4.79 for allwinner A10 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
  This kernel is developed and maintained by linux-sunxi
  https://github.com/linux-sunxi/linux-sunxi.
 
 Package: linux-image-3.4.79-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79
+Version: 3.4.79-2cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -430,15 +431,81 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
 Conflicts: linux-image-3.4.79-headless-sun7i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-sun7i_3.4.79_armhf.deb
-Size: 14918282
-SHA256: 23e06858e02f303022bd1e21f1d2d90aca7ec388e45d275c34e0b1ad9bdb27c4
-SHA1: ee0ef714529a409c2bb1ab637999a24cf80f8483
-MD5sum: f84bfa86e04647a44871d6cf4fc300da
-Description: Linux 3.4.79 for allwinner A10 devices
- The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-sun7i_3.4.79-2cubian_armhf.deb
+Size: 14930086
+SHA256: 9509ae1d2c16e01c63278880d68b616506d80e9a521931096f64427fd8b8a2f1
+SHA1: 856f14457b154493c4809eb8ec3d7db2c8d3aa83
+MD5sum: d5c6937fba6dcdb32b483be60d64bf04
+Description: Linux 3.4.79 for allwinner A20 devices
+ The Linux kernel 3.4.79 and modules for use on allwinner A20 devices.
  This kernel is developed and maintained by linux-sunxi
  https://github.com/linux-sunxi/linux-sunxi.
+
+Package: linux-source-3.4.79-sun4i
+Version: 3.4.79-2cubian
+Architecture: all
+Maintainer: cubieplayer <playcubie@gmail.com>
+Installed-Size: 113358
+Depends: binutils, bzip2, file, p7zip
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), po-debconf, gettext, binutils (>= 2.12), util-linux (>= 2.10o), module-init-tools (>= 0.9.10), debianutils (>= 2.30)
+Suggests: libncurses-dev, kernel-package, xmlto, libdb3-dev, docbook-utils, e2fsprogs (>= 1.29), linux-initramfs-tool
+Provides: linux-source, linux-source-3.4
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-source-3.4.79-sun4i_3.4.79-2cubian_all.deb
+Size: 83093092
+SHA256: 593ac8b756abc67e36898f00e193efba64acc2eaef225c518783add65ef66255
+SHA1: 28c6fc2d3c2610bdad9704c7ff19465f384f871f
+MD5sum: 5eec0a18e3a143bd3dd30a9e96a41901
+Description: Linux kernel source for version 3.4.79-sun4i
+ This package provides the source code for the Linux kernel, specifically,
+ version 3.4.79-sun4i.
+ .
+ You may configure the kernel to your setup by typing "make config"
+ and following instructions, but you could get ncursesX.X-dev and try
+ "make menuconfig" for a jazzier, and easier to use interface. There
+ are options to use QT or GNOME based configuration interfaces, but they
+ need additional packages to be installed. Also, please read the detailed
+ documentation in the file README.headers.gz in the documentation directory
+ /usr/share/doc/linux-source-3.4.79-sun4i/.
+ .
+ If you wish to use this package to create a custom Linux kernel, then
+ it is suggested that you investigate the package kernel-package,
+ which has been designed to ease the task of creating kernel image
+ packages.
+
+Package: linux-source-3.4.79-sun7i
+Version: 3.4.79-2cubian
+Architecture: all
+Maintainer: cubieplayer <playcubie@gmail.com>
+Installed-Size: 113358
+Depends: binutils, bzip2, file, p7zip
+Recommends: libc6-dev | libc-dev, gcc | c-compiler, make (>= 3.80-10), po-debconf, gettext, binutils (>= 2.12), util-linux (>= 2.10o), module-init-tools (>= 0.9.10), debianutils (>= 2.30)
+Suggests: libncurses-dev, kernel-package, xmlto, libdb3-dev, docbook-utils, e2fsprogs (>= 1.29), linux-initramfs-tool
+Provides: linux-source, linux-source-3.4
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-source-3.4.79-sun7i_3.4.79-2cubian_all.deb
+Size: 83072338
+SHA256: 32dd5fb0e5968fda70206e3ec563aa7e09b292d8529a0db6f881b263b003908e
+SHA1: 098e9e0f82d1d3efbc501b43a79896fed25d3e20
+MD5sum: cb12bf171735b602906ab29aa7b731f2
+Description: Linux kernel source for version 3.4.79-sun7i
+ This package provides the source code for the Linux kernel, specifically,
+ version 3.4.79-sun7i.
+ .
+ You may configure the kernel to your setup by typing "make config"
+ and following instructions, but you could get ncursesX.X-dev and try
+ "make menuconfig" for a jazzier, and easier to use interface. There
+ are options to use QT or GNOME based configuration interfaces, but they
+ need additional packages to be installed. Also, please read the detailed
+ documentation in the file README.headers.gz in the documentation directory
+ /usr/share/doc/linux-source-3.4.79-sun7i/.
+ .
+ If you wish to use this package to create a custom Linux kernel, then
+ it is suggested that you investigate the package kernel-package,
+ which has been designed to ease the task of creating kernel image
+ packages.
 
 Package: sunxi-disp-test
 Version: 1.0-1
