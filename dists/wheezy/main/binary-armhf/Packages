@@ -78,17 +78,17 @@ Description: chromium-browser language packages
  ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
 
 Package: cubian-nandinstall
-Version: 1.1-5
+Version: 1.1-6
 Architecture: armhf
 Depends: coreutils (>= 8.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.1-5_armhf.deb
-Size: 388962
-SHA256: fc385e2cbb6750855ed78e6ad81154b57198ef5b98e1c4c5f8e528d8dd9ca0ca
-SHA1: 7e885645cd193d605ffb9570dba15ef8ab0f954d
-MD5sum: 01c0dbba4bbc0eba8612cb5b0f06dccb
+Filename: pool/main/c/cubian-nandinstall/cubian-nandinstall_1.1-6_armhf.deb
+Size: 389010
+SHA256: 14237a97d9b9f8462635f8fa255cbfeb2b95409904833a0b4d507f9e159b99a6
+SHA1: 6766d441363ab638d5b7636571d06ef2b5507e8f
+MD5sum: c3e6978339ceadc4214d0a582a8e74dc
 Description: clone you system on SD-card to NAND on cubieboard
  A helper script to clone cubian installed on SD-card to NAND on cubieboard
 
