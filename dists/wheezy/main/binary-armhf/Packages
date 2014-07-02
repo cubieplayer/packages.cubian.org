@@ -77,6 +77,28 @@ Description: chromium-browser language packages
  hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, nb, nl, pl, pt-BR, pt-PT,
  ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
 
+Package: cpuburn-sunxi
+Version: 1.0-2
+Architecture: armhf
+Depends: libc6 (>= 2.13-28), ruby (>= 1.9.1), coreutils (>= 8.13), util-linux (>= 2.20)
+Maintainer: cubieplayer <playcubie@gmail.com>
+Priority: optional
+Section: misc
+Filename: pool/main/c/cpuburn-sunxi/cpuburn-sunxi_1.0-2_armhf.deb
+Size: 291184
+SHA256: 6e406d1afb71b87f761f88942954f5e37ad1ef6c2d0becf009c6c293ec853648
+SHA1: 83809197ba317c78f113e894c22ede368b1a13dd
+MD5sum: 2829cf8941f33b5b63a90929644de2f4
+Description: Collection of programs to put heavy load on CPU
+ CPUburn is a collection of programs to put heavy stress on CPU.
+ These programs are designed to load CPUs as heavily as possible
+ for the purposes of system testing.
+ .
+ Warning: The goal has been to maximize heat production from the CPU, 
+ putting stress on the CPU itself, cooling system, motherboard. This
+ may cause data loss (filesystem corruption) and possibly permanent 
+ damage to electronic components. Use at your own risk.
+
 Package: cubian-nandinstall
 Version: 1.1-8
 Architecture: armhf
@@ -305,6 +327,28 @@ Description: VP8 video codec (shared library)
  .
  This package contains the shared libraries.
 
+Package: lima-memtester
+Version: 1.0-1
+Architecture: armhf
+Maintainer: cubieplayer <playcubie@gmail.com>
+Depends: libc6 (>=2.13-28)
+Priority: optional
+Section: misc
+Filename: pool/main/l/lima-memtester/lima-memtester_1.0-1_armhf.deb
+Size: 1388796
+SHA256: 7c66652927987637ed77a6f482e0d36b272e9330dc324e0afa937a3e6e83c22c
+SHA1: f81aea48807eeca6067d7a02d991467cccdce6e1
+MD5sum: 616b4982177c3e76af0d9ceff718e643
+Description: This is a memory reliability testing tool, 
+ implemented by combining http://limadriver.org/ and
+ http://pyropus.ca/software/memtester/
+ .
+ Licensed under the terms of the GNU General Public License version 2 (only)
+ because the license of memtester applies to this work as a whole.
+ .
+ Original author: https://github.com/ssvb/lima-memtester
+ Compiled by: cubieplayer
+
 Package: linux-headers-3.4.79-sun4i
 Source: linux-source-3.4.79-sun4i
 Version: 3.4.79-2cubian
@@ -359,7 +403,7 @@ Description: Header files related to Linux kernel, specifically,
 
 Package: linux-image-3.4.79-headless-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79+headless-2
+Version: 3.4.79+headless-3cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -368,11 +412,11 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
 Conflicts: linux-image-3.4.79-sun4i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-headless-sun4i_3.4.79+headless-2_armhf.deb
-Size: 13816142
-SHA256: b2f30da9f63b61a54234f8a44d54249129752e3def43c7822b0bb498f7a8dab8
-SHA1: 245d82186c0cf5be958deeaca82778f115e51987
-MD5sum: a6601a8710f17a2ac052d2c8573f3fb6
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-headless-sun4i_3.4.79+headless-3cubian_armhf.deb
+Size: 13815262
+SHA256: c772643939c96b3d518e0bab5b1e7ce304a5831aab6a45872923db522a21bfb1
+SHA1: 36a17caa72827699e8a81ab92d352367bff0dd5e
+MD5sum: e2611f37457517d55bbac205e8b693ce
 Description: Linux 3.4.79 for allwinner A10 devices
  The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
  This kernel is developed and maintained by linux-sunxi
@@ -380,7 +424,7 @@ Description: Linux 3.4.79 for allwinner A10 devices
 
 Package: linux-image-3.4.79-headless-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79+headless-2
+Version: 3.4.79+headless-3cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -389,11 +433,11 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
 Conflicts: linux-image-3.4.79-sun7i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-headless-sun7i_3.4.79+headless-2_armhf.deb
-Size: 14799220
-SHA256: d72be5de7e90f14cef44b4168f3fb0f167b850d1d607a3b3b22272fe272cb70e
-SHA1: f70033fd680ccd466874e19e30ef7c2a26f5e093
-MD5sum: 3609ef46c0b9810674911bfa58e50f40
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-headless-sun7i_3.4.79+headless-3cubian_armhf.deb
+Size: 14802966
+SHA256: a58cbdb91b9bb82747f7b90ae9ef87f5ad8bc9991acd26b7f9650506f599a83e
+SHA1: 101f86ce1c6b1c0fa6f575adb4441e64d8fead36
+MD5sum: b19a97678658db05b801572e02fe15e6
 Description: Linux 3.4.79 for allwinner A20 devices
  The Linux kernel 3.4.79 and modules for use on allwinner A20 devices.
  This kernel is developed and maintained by linux-sunxi
@@ -401,7 +445,7 @@ Description: Linux 3.4.79 for allwinner A20 devices
 
 Package: linux-image-3.4.79-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79-2cubian
+Version: 3.4.79-3cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -410,11 +454,11 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun4i
 Conflicts: linux-image-3.4.79-headless-sun4i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-sun4i_3.4.79-2cubian_armhf.deb
-Size: 13942748
-SHA256: 7872baa8fb6472b61737e6b1511a15282e0d8045ad98f6231cb4166b3af02bd4
-SHA1: cd198f5b5ec9152aca639a496dbf2e0f8e44916b
-MD5sum: d34bc86ac8d17df2c7a4f6dc65d98739
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-image-3.4.79-sun4i_3.4.79-3cubian_armhf.deb
+Size: 13943274
+SHA256: 3b10d42d547ed4b4acbe9f76d967ab9fed6ed9527e04af019e591aad18a05fee
+SHA1: 5b0f840befd05fba70f88870b175efd526f0a09a
+MD5sum: 7c721dbc6da17c6a360448390537493c
 Description: Linux 3.4.79 for allwinner A10 devices
  The Linux kernel 3.4.79 and modules for use on allwinner A10 devices.
  This kernel is developed and maintained by linux-sunxi
@@ -422,7 +466,7 @@ Description: Linux 3.4.79 for allwinner A10 devices
 
 Package: linux-image-3.4.79-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79-2cubian
+Version: 3.4.79-3cubian
 Architecture: armhf
 Maintainer: cubieplayer <sophiasmth@gmail.com>
 Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
@@ -431,11 +475,11 @@ Provides: linux-image, linux-image-3.4,linux-modules-3.4-sun7i
 Conflicts: linux-image-3.4.79-headless-sun7i
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-sun7i_3.4.79-2cubian_armhf.deb
-Size: 14930086
-SHA256: 9509ae1d2c16e01c63278880d68b616506d80e9a521931096f64427fd8b8a2f1
-SHA1: 856f14457b154493c4809eb8ec3d7db2c8d3aa83
-MD5sum: d5c6937fba6dcdb32b483be60d64bf04
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-image-3.4.79-sun7i_3.4.79-3cubian_armhf.deb
+Size: 14933210
+SHA256: f52ad20ceb5fa6728c416c7ba6c1959add91a34891eee729c5d22cc0999c710d
+SHA1: 5e16838a00159877430c650e2ac9dd1e9f0460d6
+MD5sum: 312e6a3917885afac7db01ca3d52ccf4
 Description: Linux 3.4.79 for allwinner A20 devices
  The Linux kernel 3.4.79 and modules for use on allwinner A20 devices.
  This kernel is developed and maintained by linux-sunxi
