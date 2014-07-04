@@ -5,27 +5,27 @@ Origin: Cubian
 Label: Cubian Packages
 Codename: wheezy
 Version: 7.0
-Date: Wed, 02 Jul 2014 23:34:31 UTC
+Date: Fri, 04 Jul 2014 20:40:53 UTC
 Architectures: armhf
 Components: main non-free
 Description: Apt repository for cubian
 MD5Sum:
- 6165d1e9bec28e450782f9149c6489f7 26793 main/binary-armhf/Packages
- 3923101aa504fc5f53b1c98533a51d32 8213 main/binary-armhf/Packages.gz
+ 8ec682687cefd8f2c43f845c05d4e769 26793 main/binary-armhf/Packages
+ f70e121f4147640c0f24c15e9c2be711 8211 main/binary-armhf/Packages.gz
  4faa0ac2d85cc893eb93e0852bfb1ef2 126 main/binary-armhf/Release
  bdcd7b38b75b306a4a685faccdd6bdcf 2549 non-free/binary-armhf/Packages
  25035757b4bd593f36dc487aedd32b66 1138 non-free/binary-armhf/Packages.gz
  0320be18014fabf50e0f0e4b26a383bf 130 non-free/binary-armhf/Release
 SHA1:
- d3b208f97fbfc25b53b3c600324cfb10a2a182b3 26793 main/binary-armhf/Packages
- c17dffa0a2aafbce05463204749c9d823f96dc55 8213 main/binary-armhf/Packages.gz
+ bea76046232bc9eee642ddcdc295e48b74017ed8 26793 main/binary-armhf/Packages
+ 79e60f251224841321b0da44c40473ae3d5cdb7e 8211 main/binary-armhf/Packages.gz
  4f5ddd944fa6fb192838bfc75054c71507ba7da5 126 main/binary-armhf/Release
  ff494b781eeffb2a6affc0487247c88dee60ce20 2549 non-free/binary-armhf/Packages
  5ba97437ae53946e7fd42428a7890d1e2a547905 1138 non-free/binary-armhf/Packages.gz
  1e0b2a1114acaba4df6ac1c22e4295beb16f0d89 130 non-free/binary-armhf/Release
 SHA256:
- a7a6417f5bf2261257e215c5be1bee95a61a61da490e21af1036672d16a1fffa 26793 main/binary-armhf/Packages
- 8a52bb1f626565479bb2c5c23783ae1e010c41fd1626608d8e52a5e1fdfe3426 8213 main/binary-armhf/Packages.gz
+ 4930e3ea7a3b1796157c14ba92fbe9be527798d1cd6af8909c871e0e02c72ed5 26793 main/binary-armhf/Packages
+ 2abccfacb9c1edb61da28237ced6fb2ee00c53d8ec3bdd565373e683c557b914 8211 main/binary-armhf/Packages.gz
  d8b6a8b10b05d91de45e1799db6f599d1aa7a3921e6b2e21648c099d75fe5ba2 126 main/binary-armhf/Release
  6dd5cddb07adc8955d054eec0f968fb7494bdb9581d61a613a5108f9bafbea9a 2549 non-free/binary-armhf/Packages
  be964e17bc2d49928114791c08703eb4378bf597acc239ce08f1cd3e184429bd 1138 non-free/binary-armhf/Packages.gz
@@ -33,9 +33,9 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iJwEAQECAAYFAlO0lwcACgkQCYg7NB8Mn/1dXwQAglgn+HdPn8NxCBv4gIg4KJcd
-naKO69dT4JzZlSXFXX0cz4+AQrcVCfZHaalb/K0fiCzEZqAgLITjCfO98N3JmiSN
-OPZCgZO2yKTN+1Rch22QsHPaseg7b/XFel7S7CT61QTi7Gz+0hkJX/cME1ZvyOyn
-H7KKKu3jZAKkt7JQH68=
-=J2k4
+iJwEAQECAAYFAlO3EVUACgkQCYg7NB8Mn/3lnQP/Rk93jBXgCkK6ZSbLP84p5kMH
+CdHY7oVnPLv8yr3USfkO5jMAvuE8sfMFqM+qwbOcZSCAWGTdciU+L3tJUOwIMbtZ
+xwD5/0o73psrAS1z6jmd92VX68+UyuLVgl0cB866fHTjMhw4wayqJu8cjtd68/1T
+cReehbW8UgTMMVMjPz4=
+=237L
 -----END PGP SIGNATURE-----
