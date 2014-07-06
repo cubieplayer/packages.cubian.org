@@ -100,17 +100,17 @@ Description: Collection of programs to put heavy load on CPU
  damage to electronic components. Use at your own risk.
 
 Package: cubian-config
-Version: 1.0-2
+Version: 1.0-3
 Architecture: all
 Depends: e2fsprogs (>= 1.1), util-linux (>= 2.20), coreutils (>= 8.13)
 Maintainer: cubieplayer <playcubie@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/c/cubian-config/cubian-config_1.0-2_all.deb
+Filename: pool/main/c/cubian-config/cubian-config_1.0-3_all.deb
 Size: 5224
-SHA256: d8834028b06cd30e7df7476a158075fb50a56ff8e6afcad38c755c9f62845191
-SHA1: d02cb755bfd7f40ab485b57c5df8e62d7c79c0a6
-MD5sum: 87c7beea6bc706fe7d3556d57e8730cf
+SHA256: 6c855ada4241d105e56cf612d91b96be28cbdeffa04030a4d31afbc28184ecf0
+SHA1: 2f9352b447a42505770da44a36069c4a31850b9d
+MD5sum: d996fde0b12486863f131b8f01e3f0d9
 Description: initial configuration script for cubian
  This tool provides a straight-forward way of doing initial configuration.
  Although it can be run at any time, some of the options may have difficulties 
