@@ -99,6 +99,24 @@ Description: Collection of programs to put heavy load on CPU
  may cause data loss (filesystem corruption) and possibly permanent 
  damage to electronic components. Use at your own risk.
 
+Package: cubian-config
+Version: 1.0-1
+Architecture: all
+Depends: e2fsprogs (>= 1.1), util-linux (>= 2.20), coreutils (>= 8.13)
+Maintainer: cubieplayer <playcubie@gmail.com>
+Priority: optional
+Section: admin
+Filename: pool/main/c/cubian-config/cubian-config_1.0-1_all.deb
+Size: 5230
+SHA256: 9290675215fc9b7e265be6a47f4c0dacf22e62893c1e1c0260503aa2800e02e8
+SHA1: 3cedca7bf60c2c926dca2573687c1389878ac481
+MD5sum: d641155d84c831d0f385aea763a633e8
+Description: initial configuration script for cubian
+ This tool provides a straight-forward way of doing initial configuration.
+ Although it can be run at any time, some of the options may have difficulties 
+ if you have heavily customised your installation.
+ This is an adaptation of raspi-config for Cubian.
+
 Package: cubian-nandinstall
 Version: 1.1-8
 Architecture: armhf
