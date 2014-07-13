@@ -624,20 +624,23 @@ Description: Mounts and unmounts removable devices and networks without a
  the devmon automounting script.
 
 Package: xserver-xorg-video-sunximali
-Version: 1.0-4
+Version: 1.0-5
 Architecture: armhf
 Depends: libc6 (>= 2.13-28), libdri2-1 (>=1.0-2), libsunxi-mali-x11 (>=1.0-4)
 Suggests: sunxi-disp-test
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: video
-Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-4_armhf.deb
-Size: 27580
-SHA256: 83f6b35353e1d5e6b8407addfdaccf6ab80fabe60fdc62783feacad9eaf9b48e
-SHA1: 187a6b6ab286562cd079270c318add6b50581a39
-MD5sum: a53d6100b3df7d075911d415fccd7376
+Filename: pool/main/x/xserver-xorg-video-sunximali/xserver-xorg-video-sunximali_1.0-5_armhf.deb
+Size: 35784
+SHA256: 45b8815240b433bd88664e1ccdaed38cf8dd1390d70fa9532e312475bf3530a8
+SHA1: e2b70c2ddf82be40651a4609f5789f4792fcb8bb
+MD5sum: 442300878689477f6242ea27a6b42df8
 Description: binary userspace drivers that a fully working system for sunxi
  The sun4i and sun5i use a Mali400MP1.
- We have support available for several versions of the mali binary driver stack, even though our kernel tends to come with the R3P0 version.
+ We have support available for several versions of
+ the mali binary driver stack, even though our kernel
+ tends to come with the R3P0 version.
+ .
  We support framebuffer and X11 as windowing systems.
 
