@@ -570,22 +570,39 @@ Description: Linux kernel source for version 3.4.79-sun7i
  packages.
 
 Package: sunxi-disp-test
-Version: 1.0-1
+Version: 1.0-2
 Architecture: armhf
-Depends: libc6
+Depends: libc6 (>= 2.13)
 Maintainer: cubian developer <sophiasmth@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/s/sunxi-disp-test/sunxi-disp-test_1.0-1_armhf.deb
-Size: 15074
-SHA256: 18da4375b217d1fc6132801a2f45a30d4402f19ee12d21ee1bc26e75faa4acb6
-SHA1: d4ab6b2c72d737be78c7eb79e07554650873b4c8
-MD5sum: b5d41b5231af2e1bd653441ae68b49b3
+Filename: pool/main/s/sunxi-disp-test/sunxi-disp-test_1.0-2_armhf.deb
+Size: 61212
+SHA256: 78b39d29fa13e747533dab4fe397b4e074f7bea4d261425020ed7355a06b49e3
+SHA1: fb20db766c843e31e57bbe01e8b5c37d3e40a8b7
+MD5sum: cc0010a662804e433fb45dd19a363d93
 Description: sunxi mali display test programs
  contains the following program
  sunxi_disp_test 
  sunxi_disp_g2d_bench
  sunxi_disp_vsync_demo
+ .
+ copy from mesa-utils_8.0.1-2+b2_armhf.deb
+ http://ftp.cn.debian.org/debian/pool/main/m/
+ mesa-demos/mesa-utils_8.0.1-2%2bb2_armhf.deb
+ sunxi_glxdemo
+ sunxi_glxgears
+ sunxi_glxheads
+ sunxi_glxinfo
+ .
+ copy from mesa-utils-extra_8.2.0-1_armhf.deb 
+ http://ftp.cn.debian.org/debian/pool/main/m/
+ mesa-demos/mesa-utils-extra_8.2.0-1_armhf.deb
+ sunxi_es2gears
+ sunxi_es2gears_screen
+ sunxi_es2gears_x11
+ sunxi_es2_info
+ sunxi_es2tri
 
 Package: sunxi-tools
 Version: 1.0-1
