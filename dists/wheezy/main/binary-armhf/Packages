@@ -28,7 +28,7 @@ Description: Google's open source chromium web browser
  This package contains the Chromium browser.
 
 Package: chromium-browser
-Version: 333.0.1750.152-2deb
+Version: 333.0.1750.152-3deb
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 94000
@@ -42,11 +42,11 @@ Provides: chromium-browser-inspector, www-browser
 Homepage: http://code.google.com/chromium/
 Priority: optional
 Section: web
-Filename: pool/main/c/chromium-browser/chromium-browser_333.0.1750.152-2deb_armhf.deb
-Size: 65283828
-SHA256: b5ba7c0e3a5178f738130c62670d25361158ead9ec411a22c1ea21c6c20f4912
-SHA1: 39353722caa5b3cf4dca8441c1cc539ca2902ef1
-MD5sum: e263e87396ac12513476b57fa2b22317
+Filename: pool/main/c/chromium-browser/chromium-browser_333.0.1750.152-3deb_armhf.deb
+Size: 65284352
+SHA256: 533775c7c9e431843a7dd086635fa297f75a77327878ef07c33803d81232d6f1
+SHA1: c710e76b623981c1519a3a5508fbf1ee1d26bf77
+MD5sum: 1c5dddb4d361e657d3d7dff1682a5952
 Description: Chromium browser
  Chromium is an open-source browser project that aims to build a safer, faster,
  and more stable way for all Internet users to experience the web.
