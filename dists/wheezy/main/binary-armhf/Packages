@@ -480,7 +480,7 @@ Description: This is a memory reliability testing tool,
 
 Package: linux-headers-3.4.79-sun4i
 Source: linux-source-3.4.79-sun4i
-Version: 3.4.79-2cubian
+Version: 3.4.79-3cubian
 Architecture: armhf
 Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
 Installed-Size: 38258
@@ -489,11 +489,11 @@ Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
 Provides: linux-headers, linux-headers-3.4
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-headers-3.4.79-sun4i_3.4.79-2cubian_armhf.deb
-Size: 7551612
-SHA256: 1cc2b4ceeeea4c1d3f9d61ec36f4a0fef02e1bd25db3e5c5e13dd95ff009c41c
-SHA1: 54ba948b9c21d5711d5f54494cf6ef77f7d7660d
-MD5sum: 4d915a1bf725271284263cbf228bc170
+Filename: pool/main/l/linux-source-3.4.79-sun4i/linux-headers-3.4.79-sun4i_3.4.79-3cubian_armhf.deb
+Size: 7611954
+SHA256: ad6998572e753e13389127c138d8e31d0b0204f5148699f08636584e72696813
+SHA1: 7fd346357762e4df7931f28c9648ba83a8835f15
+MD5sum: 33d2591fc25d8a62dff953229dc1d2a0
 Description: Header files related to Linux kernel, specifically,
  version 3.4.79-sun4i
  .
@@ -506,7 +506,7 @@ Description: Header files related to Linux kernel, specifically,
 
 Package: linux-headers-3.4.79-sun7i
 Source: linux-source-3.4.79-sun7i
-Version: 3.4.79-2cubian
+Version: 3.4.79-3cubian
 Architecture: armhf
 Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
 Installed-Size: 38419
@@ -515,11 +515,11 @@ Suggests: module-init-tools (>= 0.9.10), e2fsprogs (>= 1.29)
 Provides: linux-headers, linux-headers-3.4
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-headers-3.4.79-sun7i_3.4.79-2cubian_armhf.deb
-Size: 7554436
-SHA256: 2d928bfe068050cf20ee1887fed948a7ba78ba125c5c3365342ddbbdb061b26a
-SHA1: 76f4872b397da2bbd61eee5751cb51996cd5fa36
-MD5sum: cfea3766b35239aaf894d3a8e5bad2a3
+Filename: pool/main/l/linux-source-3.4.79-sun7i/linux-headers-3.4.79-sun7i_3.4.79-3cubian_armhf.deb
+Size: 7618094
+SHA256: 0ce8205806e346be7824300d64f652f247660252331b8937432d643f2b27a1ce
+SHA1: 2bd356ca9fff09f5075960022bc8c6d6abd96847
+MD5sum: 62b4d10e40393ca03bc6b5633d9ef0a0
 Description: Header files related to Linux kernel, specifically,
  version 3.4.79-sun7i
  .
