@@ -288,6 +288,49 @@ MD5sum: 9f994e04dbd66e4552e672dfd0a6283f
 Description: media player on cubian
  A powerful mediaplayer on cubian system
 
+Package: glmark2-data
+Version: 1.0-0cubian
+Architecture: all
+Original-Maintainer: Alexandros Frantzis <alexandros.frantzis@linaro.org>
+Maintainer: cubieplayer <playcubie@gmail.com>
+Installed-Size: 9241
+Homepage: https://launchpad.net/glmark2
+Priority: optional
+Section: misc
+Filename: pool/main/g/glmark2-data/glmark2-data_1.0-0cubian_all.deb
+Size: 6324638
+SHA256: 143df963a47921c993a0a467a7b7d551a272f01a3b30e6ed234c1b660741ad4f
+SHA1: 5cc5ab2a45cfb6bb5dc7d0d7d25f7947da43b3ff
+MD5sum: bc0c2cb927f19f04b5494f7c8a1d4861
+Description: data files for the glmark2 OpenGL (ES) 2.0 benchmark
+ A benchmark for OpenGL (ES) 2.0 that uses only the OpenGL ES 2.0 compatible
+ API. It contains tests for standard OpenGL (ES) 2.0 features, such as vertex
+ arrays, VBOs, texturing and shaders.
+ .
+ This package contains the data files used by the glmark2 benchmark.
+
+Package: glmark2-es2
+Version: 1.0-0cubian
+Architecture: armhf
+Original-Maintainer: Alexandros Frantzis <alexandros.frantzis@linaro.org>
+Maintainer: cubieplayer <playcubie@gmail.com>
+Installed-Size: 618
+Depends: libc6 (>= 2.13), libgcc1 (>= 1:4.4.0), libgles2-mesa (>= 7.8.1) | libgles2, libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.6), libx11-6, glmark2-data (= 1.0-0cubian)
+Homepage: https://launchpad.net/glmark2
+Priority: optional
+Section: misc
+Filename: pool/main/g/glmark2-es2/glmark2-es2_1.0-0cubian_armhf.deb
+Size: 340400
+SHA256: 058be2324faf395d5050a795fca0776c4004a95156354187686cefbc2135d7ab
+SHA1: a8a1cb840cde5b30aaf76c5897db6312a1873055
+MD5sum: 00cc6f6ff408fc6ec82434e9754fce2d
+Description: OpenGL (ES) 2.0 benchmark
+ A benchmark for OpenGL (ES) 2.0 that uses only the OpenGL ES 2.0 compatible
+ API. It contains tests for standard OpenGL (ES) 2.0 features, such as vertex
+ arrays, VBOs, texturing and shaders.
+ .
+ This package contains the OpenGL ES 2.0 variant of the benchmark.
+
 Package: goagent-client
 Version: 3.0-5
 Architecture: all
